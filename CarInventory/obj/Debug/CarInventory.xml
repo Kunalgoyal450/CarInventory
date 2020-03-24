@@ -1,0 +1,135 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CarInventory
+</name>
+</assembly>
+<members>
+<member name="T:CarInventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CarInventory.Car.#ctor">
+ <summary>
+ Default constructor to increase the car count
+ </summary>
+</member>
+<member name="M:CarInventory.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Sets all private variable on arguments passed in
+ </summary>
+</member>
+<member name="P:CarInventory.Car.Count">
+ <summary>
+ Returns the number of car objects
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Id">
+ <summary>
+ Returns the car's unique ID
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Make">
+ <summary>
+ Returns the manufacturer of car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Model">
+ <summary>
+ Returns the model of the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Year">
+ <summary>
+ Returns the year of making of car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Price">
+ <summary>
+ Returns the price of the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CarInventory.Car.Status">
+ <summary>
+ Returns the status of car whether the car is new or old
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CarInventory.Car.GetCarData">
+ <summary>
+ returns a string describing the car
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for reset button to reset the form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for Enter button to perform the actions
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for exit button.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwCarInventory_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Code for List view box when a car is selected from the box.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwCarInventory_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Disaalows user to uncheck or check the box in list view.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.SetDefaults">
+ <summary>
+ Funtion to set the form to its default values.
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.IsValidInput">
+ <summary>
+ Funtion to check the values entered by user are correct or not
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CarInventory.frmCarInventory.PopulateList">
+ <summary>
+ This populates and clears the list of my form 
+ </summary>
+</member>
+</members>
+</doc>
